@@ -5,6 +5,7 @@
     height: 50%;   
     background: #CC9764;
     border-bottom: 0.8537886872998933vh solid #934F28;
+    margin-bottom: 0.5%;
 }
 #title{ 
     font-family: Rouge Script;
@@ -31,4 +32,25 @@
 .nav-link{
     color: #e7ddd2;
     margin-left: 55%;
+}
+.steps{
+    height: 500px;
+    margin-bottom: 1%;
+}
+
+.rechts{
+    float: right;
+    height: 100%;
+    border-bottom: 8px solid #cb401b;
+    border-right: 4px solid #cb401b;
+}
+.links{
+    float: left;
+    height: 100%;
+    border-bottom: 8px solid #cb401b;
+    border-left: 4px solid #cb401b;
+}
+.text-box{
+    background-color: rgba(204, 151, 100, 0.2);
+    border-radius: 20px;
 }
