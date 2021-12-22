@@ -362,6 +362,16 @@
 .button:hover .button__vertical {
   transform: scaleY(0);
 }
+@media (max-width: 992px) {
+  .nav-link {
+    margin-left: 0%;
+    margin-bottom: -2%;
+    font-size: 25px;
+  }
+  .snowflake {
+    font-size: 2em;
+  }
+}
 @media (max-width: 576px) {
   .text-box {
     max-width: 30%;
@@ -376,16 +386,5 @@
   }
   .snowflake {
     font-size: 1em;
-  }
-}
-
-@media (max-width: 992px) {
-  .nav-link {
-    margin-left: 0%;
-    margin-bottom: -2%;
-    font-size: 25px;
-  }
-  .snowflake {
-    font-size: 2em;
   }
 }
