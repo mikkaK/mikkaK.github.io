@@ -164,27 +164,7 @@
   font-size: 13px;
   opacity: 0.6;
 }
-@media (max-width: 576px) {
-  .text-box {
-    max-width: 30%;
-  }
-  .steps {
-    max-width: 70%;
-  }
-  .row {
-    margin: auto;
-    width: 100%;
-    padding: 10px;
-  }
-}
 
-@media (max-width: 992px) {
-  .nav-link {
-    margin-left: 0%;
-    margin-bottom: -2%;
-    font-size: 25px;
-  }
-}
 .snowflake {
   color: #fff;
   font-size: 3em;
@@ -381,4 +361,31 @@
 }
 .button:hover .button__vertical {
   transform: scaleY(0);
+}
+@media (max-width: 576px) {
+  .text-box {
+    max-width: 30%;
+  }
+  .steps {
+    max-width: 70%;
+  }
+  .row {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .snowflake {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    margin-left: 0%;
+    margin-bottom: -2%;
+    font-size: 25px;
+  }
+  .snowflake {
+    font-size: 2em;
+  }
 }
